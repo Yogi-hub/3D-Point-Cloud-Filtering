@@ -1,6 +1,6 @@
 # 3D Point Cloud Filtering
 
-This repository contains a custom Robot Operating System (ROS) package designed to filter noisy cumulative point clouds. The package enhances the quality of 3D point cloud data by removing outliers and smoothing the dataset, which is essential for applications like 3D modeling, mapping, and object recognition.
+This repository contains a custom Robot Operating System (ROS) node designed to filter noisy cumulative point clouds, stored in a bag file. This enhances the quality of 3D point cloud data by removing outliers and smoothing the dataset, which is essential for applications like 3D modeling, mapping, and object recognition.
 
 ## Features
 
@@ -8,6 +8,9 @@ This repository contains a custom Robot Operating System (ROS) package designed 
 - **Outlier Removal**: Identifies and removes outlier points that do not conform to the expected structure.
 - **ROS Integration**: Seamlessly integrates with ROS for real-time processing and compatibility with other ROS packages.
 - **Customization**: Allows users to adjust filtering parameters to suit specific datasets and requirements.
+
+Raw point-cloud: ![alt text](https://github.com/Yogi-hub/3D-Point-Cloud-Filtering/blob/main/Images/unfiltered_side_view.PNG)
+Filtered: ![alt text](https://media.githubusercontent.com/media/Yogi-hub/3D-Point-Cloud-Filtering/main/Images/open3d_filtered.PNG)
 
 ## Installation
 
